@@ -6,9 +6,11 @@ import java.io.IOException;
 
 public class Main {
     static void main() {
-        ArrayProcessor  arrayProcessor = new ArrayProcessor();
-
+        // Task C(i): Run this to get the result of Task C(i)
         ExceptionDelegation.demonstrate();
+
+        // Task C(iI): Run this to get the result of Task C(iI)
+        ArrayProcessor  arrayProcessor = new ArrayProcessor();
         arrayProcessor.demonstrate();
     }
 }
